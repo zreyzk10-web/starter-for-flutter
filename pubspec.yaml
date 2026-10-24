@@ -1,29 +1,22 @@
-name: appwrite_flutter_starter_kit
-description: "Appwrite StarterKit in Flutter"
+name: nba_app
+description: "Aplicación móvil de pronósticos de la NBA con IA"
 publish_to: 'none'
 
-version: 1.0.0
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.4
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-  intl: ^0.20.2
-  appwrite: ^20.2.1
-  url_launcher: ^6.3.1
-  window_manager: ^0.4.3
+  http: ^1.2.0
   cupertino_icons: ^1.0.8
 
-dependency_overrides:
-  flutter_web_auth_2: 4.1.0
-
 dev_dependencies:
-  flutter_lints: ^5.0.0
-  flutter_native_splash: ^2.4.4
-  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
